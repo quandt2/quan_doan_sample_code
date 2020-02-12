@@ -1,0 +1,19 @@
+{
+    "name": "amarki/test",
+    "description": "A php skills test",
+    "authors": [
+        {
+            "name": "Quan Doan",
+            "email": "quandt2206@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "~5.0",
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amarki\\": "src/"
+        }
+    }
+}
